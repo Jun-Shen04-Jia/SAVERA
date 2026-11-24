@@ -1,6 +1,6 @@
 # SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse
 
-Official PyTorch training implementation of **SAVERA** (*CVPR 2027 Submission*).
+Official PyTorch training implementation of **SAVERA** .
 
 SAVERA connects independently pretrained and frozen vision (`DINOv2-L/14`) and language (`Vicuna-7B-v1.5`) backbones without fine-tuning either foundation model. It consists of three components:
 1. **SPARE** (*Shared-space Projection, Activation Reconstruction, and Encoding*): Encodes original visual (`Vision`), language-adapted visual (`Bridge`), and textual (`Text`) features into a shared soft-gated sparse space ($K = 16{,}384$) with branch-specific linear decoders.
